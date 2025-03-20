@@ -34,16 +34,16 @@ fs.appendFile('example.txt', '\nAppended text!', (err) => {
 
 //const fs = require('fs');
 
-fs.unlink('example.txt', (err) => {
-    if (err) {
-        console.error('Erreur lors de la suppression du fichier:', err);
-        return;
-    }
-    console.log('File deleted successfully!');
-});
+// fs.unlink('example.txt', (err) => {
+//     if (err) {
+//         console.error('Erreur lors de la suppression du fichier:', err);
+//         return;
+//     }
+//     console.log('File deleted successfully!');
+// });
 
 
-const fs = require('fs');
+//const fs = require('fs');
 
 // Ouvrir le fichier 'example.txt' en mode lecture ('r')
 fs.open('example.txt', 'r', (err, fd) => {
